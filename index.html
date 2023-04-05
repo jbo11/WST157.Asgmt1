@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --primaryColor: #85C1E9;
+        --secondaryColor: #EAF2F8;
+        --textDefaultColor: #424b54;
+    }
+
+    body {
+        background-color: var(--primaryColor);
+        color: var(--textDefaultColor);
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 10px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background: url(../images/pexels-karol-d-323645.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    main ol {
+        padding: 20px 40px;
+        width: 40%;
+        margin: 20px 20px 20px 20px;
+        background-color: var(--secondaryColor);
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    ol ul {
+        padding-left: 40px;
+    }
+
+    .main-image {
+        display: inline-block;
+        margin: 20px 20px 20px 0;
+        flex-shrink: 0;
+        width: 60%;
+        height: auto;
+    }
+</style>
+
+
+
+<body>
+    <header>
+        <h1>WST 157: Website Planning and Production</h1>
+        <h2>Assignment 1</h2>
+    </header>
+
+    <main>
+        <ol>
+            <li>
+                <h3>What is the website for?</h3>
+                <p>• VA Remote Worker Agency</p>
+            </li>
+            <li>
+                <h3>How will you build the site?</h3>
+                <p>• From Scratch using HTML/CSS</p>
+            </li>
+            <li>
+                <h3>Textual Sitemap</h3>
+                <ul>
+                    <li>
+                        <h4>Home</h4>
+                    </li>
+                    <li>
+                        <h4>About us</h4>
+                    </li>
+                    <li>
+                        <h4>Services</h4>
+                        <ul>
+                            <li>Virtual Assistant Services</li>
+                            <li>Administrative Services</li>
+                            <li>Marketing Services</li>
+                            <li>Customer Service Services</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Pricing</h4>
+                    </li>
+                    <li>
+                        <h4>Testimonials</h4>
+                    </li>
+                    <li>
+                        <h4>Contact us</h4>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3><a target="_blank" href="https://www.gloomaps.com/ZNEN2khpgd">Visual Sitemap</a></h3>
+            </li>
+            </li>
+        </ol>
+        <img class="main-image"
+            src="https://img.freepik.com/free-vector/hand-drawn-man-working-from-home_23-2148818123.jpg?w=2000" />
+    </main>
+
+</body>
+
+</html>
